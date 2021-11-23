@@ -1,20 +1,19 @@
 body {
-    background-size: cover;
-    color: rgb(251, 242, 213);
-    margin: 0;
+    color: #fbf2d5;
+    margin: 0px;
     font-family: sans-serif;
     font-weight: bold;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, #E4AD80 0%, #5F3C20 100%);
+    background: linear-gradient(180deg, #e4ad80 0%, #5f3c20 100%);
 }
 .upper {
-    background-color: rgb(202, 154, 102);
+    background-color: #ca9a66;
     width: fit-content;
     padding: 5px;
     border-radius: 25px;
-    border: black solid 3px;
+    border: #000 solid 3px;
 }
 .middle {
     margin: auto 0px;
@@ -26,10 +25,10 @@ body {
     width: 600px;
 }
 .middle-right {
-    background-color: rgb(78, 49, 46);
+    background-color: #4e312e;
     width: 400px;
     padding: 0px 20px 20px 20px;
-    border: black solid 3px;
+    border: #000 solid 3px;
     border-radius: 25px;
     text-align: center;
 }

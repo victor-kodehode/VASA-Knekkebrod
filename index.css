@@ -1,5 +1,4 @@
 body, html {
-    /* background-image: url('images/wood-background.jpg'); */
     background-size: cover;
     color: rgb(251, 242, 213);
     background-color: rgb(228, 173, 128);
@@ -9,7 +8,7 @@ body, html {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180.05deg, #C4C4C4 0.04%, #E4AD80 0.05%, #5F3C20 99.96%);
+    background: linear-gradient(180deg, #E4AD80 0%, #5F3C20 100%);
 }
 main {
     text-align: center;
@@ -69,7 +68,6 @@ footer {
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 @media screen and (max-width: 1065px) {
     .flex-container{

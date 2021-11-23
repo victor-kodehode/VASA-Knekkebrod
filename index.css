@@ -1,7 +1,6 @@
-body, html {
+body {
     background-size: cover;
     color: rgb(251, 242, 213);
-    background-color: rgb(228, 173, 128);
     margin: 0;
     font-family: sans-serif;
     font-weight: bold;
@@ -10,56 +9,43 @@ body, html {
     flex-direction: column;
     background: linear-gradient(180deg, #E4AD80 0%, #5F3C20 100%);
 }
-main {
-    text-align: center;
-}
-header {
-    margin-bottom: 100px;
+.upper {
     background-color: rgb(202, 154, 102);
-    width: 200px;
+    width: fit-content;
     padding: 5px;
     border-radius: 25px;
     border: black solid 3px;
 }
-.flex-container {
+.middle {
+    margin: auto 0px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.flex-container > div {
+.middle-left {
+    width: 600px;
+}
+.middle-right {
     background-color: rgb(78, 49, 46);
     width: 400px;
-    height: 100%;
-    padding: 0px 20px 30px 20px;
-    border-radius: 25px;
+    padding: 0px 20px 20px 20px;
     border: black solid 3px;
-    margin: 10px;
-}
-#button {
-    padding: 10px 20px;
     border-radius: 25px;
-}
-#button:hover {
-    background-color: teal;
-}
-#button:active {
-    background-color: beige;
-}
-#button-block {
     text-align: center;
 }
-footer {
-    text-align: right;
-    margin-top: auto;
+.button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: lightgray;
 }
-#icon {
-    text-align: right;
+.button:hover {
+    background: white;
 }
-#text {
-    text-align: right;
+.button:active {
+    background: gray;
 }
-.box {
-    min-width: 400px;
+.lower {
+    text-align: right;
 }
 .instagram {
     width:84px;
@@ -68,9 +54,4 @@ footer {
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-}
-@media screen and (max-width: 1065px) {
-    .flex-container{
-        flex-direction: column;
-    }
 }
